@@ -142,6 +142,7 @@ int main(int argc, char *argv[])
 	{
 		LOG_ERROR("ERROR: *** " << e.what() << " ***");
 		return -1;
-	}
+	} 
+        printf("Test");
 	return 0;
 }
